@@ -1,0 +1,125 @@
+Python 3.10.9 | packaged by Anaconda, Inc. | (main, Mar  1 2023, 18:18:15) [MSC v.1916 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 8.10.0 -- An enhanced Interactive Python.
+
+runfile('C:/Users/CGLam/OneDrive - Northwestern University/MSDS 460/Redistricting/Code/Hw3_Group2_NJ_North_Jersey_v3.py', wdir='C:/Users/CGLam/OneDrive - Northwestern University/MSDS 460/Redistricting/Code')
+10
+xij_('Bergen',_0): 0
+xij_('Bergen',_1): 0
+xij_('Bergen',_2): 0
+xij_('Bergen',_3): 0
+xij_('Bergen',_4): 1
+xij_('Bergen',_5): 0
+xij_('Essex',_0): 1
+xij_('Essex',_1): 0
+xij_('Essex',_2): 0
+xij_('Essex',_3): 0
+xij_('Essex',_4): 0
+xij_('Essex',_5): 0
+xij_('Hudson',_0): 0
+xij_('Hudson',_1): 0
+xij_('Hudson',_2): 1
+xij_('Hudson',_3): 0
+xij_('Hudson',_4): 0
+xij_('Hudson',_5): 0
+xij_('Hunterdon',_0): 0
+xij_('Hunterdon',_1): 0
+xij_('Hunterdon',_2): 0
+xij_('Hunterdon',_3): 1
+xij_('Hunterdon',_4): 0
+xij_('Hunterdon',_5): 0
+xij_('Morris',_0): 0
+xij_('Morris',_1): 0
+xij_('Morris',_2): 0
+xij_('Morris',_3): 1
+xij_('Morris',_4): 0
+xij_('Morris',_5): 0
+xij_('Passaic',_0): 0
+xij_('Passaic',_1): 0
+xij_('Passaic',_2): 0
+xij_('Passaic',_3): 0
+xij_('Passaic',_4): 0
+xij_('Passaic',_5): 1
+xij_('Somerset',_0): 0
+xij_('Somerset',_1): 1
+xij_('Somerset',_2): 0
+xij_('Somerset',_3): 0
+xij_('Somerset',_4): 0
+xij_('Somerset',_5): 0
+xij_('Sussex',_0): 0
+xij_('Sussex',_1): 0
+xij_('Sussex',_2): 0
+xij_('Sussex',_3): 0
+xij_('Sussex',_4): 0
+xij_('Sussex',_5): 1
+xij_('Union',_0): 0
+xij_('Union',_1): 1
+xij_('Union',_2): 0
+xij_('Union',_3): 0
+xij_('Union',_4): 0
+xij_('Union',_5): 0
+xij_('Warren',_0): 0
+xij_('Warren',_1): 0
+xij_('Warren',_2): 0
+xij_('Warren',_3): 1
+xij_('Warren',_4): 0
+xij_('Warren',_5): 0
+xprime_BergenEssex: 1
+xprime_BergenHudson: 1
+xprime_BergenPassaic: 1
+xprime_EssexHudson: 1
+xprime_EssexMorris: 1
+xprime_EssexPassaic: 1
+xprime_EssexUnion: 1
+xprime_HudsonUnion: 1
+xprime_HunterdonMorris: 0
+xprime_HunterdonSomerset: 1
+xprime_HunterdonWarren: 0
+xprime_MorrisPassaic: 1
+xprime_MorrisSomerset: 1
+xprime_MorrisSussex: 1
+xprime_MorrisUnion: 1
+xprime_MorrisWarren: 0
+xprime_PassaicSussex: 0
+xprime_SomersetUnion: 0
+xprime_SussexWarren: 1
+
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --cpxlp C:\Users\CGLam\AppData\Local\Temp\d9e35b0e378d4e96ae61fdd359e1166b-pulp.lp
+ -o C:\Users\CGLam\AppData\Local\Temp\d9e35b0e378d4e96ae61fdd359e1166b-pulp.sol
+Reading problem data from 'C:\Users\CGLam\AppData\Local\Temp\d9e35b0e378d4e96ae61fdd359e1166b-pulp.lp'...
+292 rows, 79 columns, 1068 non-zeros
+79 integer variables, all of which are binary
+503 lines were read
+GLPK Integer Optimizer 5.0
+292 rows, 79 columns, 1068 non-zeros
+79 integer variables, all of which are binary
+Preprocessing...
+42 hidden covering inequaliti(es) were detected
+18 constraint coefficient(s) were reduced
+292 rows, 79 columns, 1068 non-zeros
+79 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  9.557e+05  ratio =  9.557e+05
+GM: min|aij| =  5.895e-01  max|aij| =  1.696e+00  ratio =  2.878e+00
+EQ: min|aij| =  3.550e-01  max|aij| =  1.000e+00  ratio =  2.817e+00
+2N: min|aij| =  2.500e-01  max|aij| =  1.001e+00  ratio =  4.006e+00
+Constructing initial basis...
+Size of triangular part is 292
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+292 rows, 79 columns, 1068 non-zeros
+      0: obj =   0.000000000e+00 inf =   2.271e+01 (21)
+     58: obj =   0.000000000e+00 inf =   4.949e-15 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++    58: mip =     not found yet >=              -inf        (1; 0)
++  4572: >>>>>   1.400000000e+01 >=   7.000000000e+00  50.0% (162; 40)
++ 72085: mip =   1.400000000e+01 >=     tree is empty   0.0% (0; 7267)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   2.5 secs
+Memory used: 3.5 Mb (3632227 bytes)
+Writing MIP solution to 'C:\Users\CGLam\AppData\Local\Temp\d9e35b0e378d4e96ae61fdd359e1166b-pulp.sol'...

@@ -1,0 +1,136 @@
+Python 3.10.9 | packaged by Anaconda, Inc. | (main, Mar  1 2023, 18:18:15) [MSC v.1916 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 8.10.0 -- An enhanced Interactive Python.
+
+runfile('C:/Users/CGLam/OneDrive - Northwestern University/MSDS 460/Redistricting/Code/Hw3_Group2_NJ_South_Jersey_v3.py', wdir='C:/Users/CGLam/OneDrive - Northwestern University/MSDS 460/Redistricting/Code')
+11
+xij_('Atlantic',_0): 0
+xij_('Atlantic',_1): 0
+xij_('Atlantic',_2): 0
+xij_('Atlantic',_3): 1
+xij_('Atlantic',_4): 0
+xij_('Atlantic',_5): 0
+xij_('Burlington',_0): 1
+xij_('Burlington',_1): 0
+xij_('Burlington',_2): 0
+xij_('Burlington',_3): 0
+xij_('Burlington',_4): 0
+xij_('Burlington',_5): 0
+xij_('Camden',_0): 0
+xij_('Camden',_1): 0
+xij_('Camden',_2): 0
+xij_('Camden',_3): 1
+xij_('Camden',_4): 0
+xij_('Camden',_5): 0
+xij_('Cape',_0): 0
+xij_('Cape',_1): 0
+xij_('Cape',_2): 1
+xij_('Cape',_3): 0
+xij_('Cape',_4): 0
+xij_('Cape',_5): 0
+xij_('Cumberland',_0): 0
+xij_('Cumberland',_1): 0
+xij_('Cumberland',_2): 1
+xij_('Cumberland',_3): 0
+xij_('Cumberland',_4): 0
+xij_('Cumberland',_5): 0
+xij_('Gloucester',_0): 0
+xij_('Gloucester',_1): 0
+xij_('Gloucester',_2): 0
+xij_('Gloucester',_3): 0
+xij_('Gloucester',_4): 1
+xij_('Gloucester',_5): 0
+xij_('Mercer',_0): 0
+xij_('Mercer',_1): 0
+xij_('Mercer',_2): 0
+xij_('Mercer',_3): 0
+xij_('Mercer',_4): 0
+xij_('Mercer',_5): 1
+xij_('Middlesex',_0): 0
+xij_('Middlesex',_1): 1
+xij_('Middlesex',_2): 0
+xij_('Middlesex',_3): 0
+xij_('Middlesex',_4): 0
+xij_('Middlesex',_5): 0
+xij_('Monmouth',_0): 0
+xij_('Monmouth',_1): 0
+xij_('Monmouth',_2): 0
+xij_('Monmouth',_3): 0
+xij_('Monmouth',_4): 0
+xij_('Monmouth',_5): 1
+xij_('Ocean',_0): 1
+xij_('Ocean',_1): 0
+xij_('Ocean',_2): 0
+xij_('Ocean',_3): 0
+xij_('Ocean',_4): 0
+xij_('Ocean',_5): 0
+xij_('Salem',_0): 0
+xij_('Salem',_1): 0
+xij_('Salem',_2): 0
+xij_('Salem',_3): 0
+xij_('Salem',_4): 1
+xij_('Salem',_5): 0
+xprime_AtlanticBurlington: 1
+xprime_AtlanticCamden: 0
+xprime_AtlanticCape: 1
+xprime_AtlanticCumberland: 1
+xprime_AtlanticGloucester: 1
+xprime_AtlanticOcean: 1
+xprime_BurlingtonCamden: 1
+xprime_BurlingtonMercer: 1
+xprime_BurlingtonMonmouth: 1
+xprime_BurlingtonOcean: 0
+xprime_CamdenGloucester: 1
+xprime_CapeCumberland: 0
+xprime_CumberlandGloucester: 1
+xprime_CumberlandSalem: 1
+xprime_GloucesterSalem: 0
+xprime_MercerMiddlesex: 1
+xprime_MercerMonmouth: 0
+xprime_MiddlesexMonmouth: 1
+xprime_MonmouthOcean: 1
+
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --cpxlp C:\Users\CGLam\AppData\Local\Temp\ec9b0442b4b34ecc8ad48e7e6d77d218-pulp.lp
+ -o C:\Users\CGLam\AppData\Local\Temp\ec9b0442b4b34ecc8ad48e7e6d77d218-pulp.sol
+Reading problem data from 'C:\Users\CGLam\AppData\Local\Temp\ec9b0442b4b34ecc8ad48e7e6d77d218-pulp.lp'...
+311 rows, 85 columns, 1158 non-zeros
+85 integer variables, all of which are binary
+660 lines were read
+GLPK Integer Optimizer 5.0
+311 rows, 85 columns, 1158 non-zeros
+85 integer variables, all of which are binary
+Preprocessing...
+60 hidden covering inequaliti(es) were detected
+48 constraint coefficient(s) were reduced
+311 rows, 85 columns, 1158 non-zeros
+85 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  8.632e+05  ratio =  8.632e+05
+GM: min|aij| =  5.932e-01  max|aij| =  1.686e+00  ratio =  2.842e+00
+EQ: min|aij| =  3.519e-01  max|aij| =  1.000e+00  ratio =  2.842e+00
+2N: min|aij| =  1.817e-01  max|aij| =  1.000e+00  ratio =  5.503e+00
+Constructing initial basis...
+Size of triangular part is 311
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+311 rows, 85 columns, 1158 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.670e+01 (18)
+    102: obj =   9.614612428e-01 inf =   2.125e-15 (0)
+*   122: obj =  -1.700029006e-16 inf =   6.948e-15 (0) 1
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++   122: mip =     not found yet >=              -inf        (1; 0)
++ 50432: >>>>>   1.500000000e+01 >=   8.000000000e+00  46.7% (2261; 662)
+Solution found by heuristic: 14
++172801: mip =   1.400000000e+01 >=   1.100000000e+01  21.4% (5784; 5658)
++262508: mip =   1.400000000e+01 >=   1.200000000e+01  14.3% (6301; 11838)
++342764: mip =   1.400000000e+01 >=   1.300000000e+01   7.1% (3559; 25198)
++402704: mip =   1.400000000e+01 >=     tree is empty   0.0% (0; 43735)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   19.1 secs
+Memory used: 17.2 Mb (18062809 bytes)
+Writing MIP solution to 'C:\Users\CGLam\AppData\Local\Temp\ec9b0442b4b34ecc8ad48e7e6d77d218-pulp.sol'...

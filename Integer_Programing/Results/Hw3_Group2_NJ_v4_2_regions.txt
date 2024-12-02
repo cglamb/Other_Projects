@@ -1,0 +1,138 @@
+Python 3.10.9 | packaged by Anaconda, Inc. | (main, Mar  1 2023, 18:18:15) [MSC v.1916 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 8.10.0 -- An enhanced Interactive Python.
+
+runfile('C:/Users/CGLam/OneDrive - Northwestern University/MSDS 460/Redistricting/Code/Hw3_Group2_NJ_v4_2_regions_v2.py', wdir='C:/Users/CGLam/OneDrive - Northwestern University/MSDS 460/Redistricting/Code')
+21
+   Legislative_District                                             County
+0                     0  Bergen Essex Hudson Hunterdon Morris Passaic S...
+1                     1  Atlantic Burlington Camden Cape Cumberland Glo...
+xij_('Atlantic',_0): 0
+xij_('Atlantic',_1): 1
+xij_('Bergen',_0): 1
+xij_('Bergen',_1): 0
+xij_('Burlington',_0): 0
+xij_('Burlington',_1): 1
+xij_('Camden',_0): 0
+xij_('Camden',_1): 1
+xij_('Cape',_0): 0
+xij_('Cape',_1): 1
+xij_('Cumberland',_0): 0
+xij_('Cumberland',_1): 1
+xij_('Essex',_0): 1
+xij_('Essex',_1): 0
+xij_('Gloucester',_0): 0
+xij_('Gloucester',_1): 1
+xij_('Hudson',_0): 1
+xij_('Hudson',_1): 0
+xij_('Hunterdon',_0): 1
+xij_('Hunterdon',_1): 0
+xij_('Mercer',_0): 0
+xij_('Mercer',_1): 1
+xij_('Middlesex',_0): 0
+xij_('Middlesex',_1): 1
+xij_('Monmouth',_0): 0
+xij_('Monmouth',_1): 1
+xij_('Morris',_0): 1
+xij_('Morris',_1): 0
+xij_('Ocean',_0): 0
+xij_('Ocean',_1): 1
+xij_('Passaic',_0): 1
+xij_('Passaic',_1): 0
+xij_('Salem',_0): 0
+xij_('Salem',_1): 1
+xij_('Somerset',_0): 1
+xij_('Somerset',_1): 0
+xij_('Sussex',_0): 1
+xij_('Sussex',_1): 0
+xij_('Union',_0): 1
+xij_('Union',_1): 0
+xij_('Warren',_0): 1
+xij_('Warren',_1): 0
+xprime_AtlanticBurlington: 0
+xprime_AtlanticCamden: 0
+xprime_AtlanticCape: 0
+xprime_AtlanticCumberland: 0
+xprime_AtlanticGloucester: 0
+xprime_AtlanticOcean: 0
+xprime_BergenEssex: 0
+xprime_BergenHudson: 0
+xprime_BergenPassaic: 0
+xprime_BurlingtonCamden: 0
+xprime_BurlingtonMercer: 0
+xprime_BurlingtonMonmouth: 0
+xprime_BurlingtonOcean: 0
+xprime_CamdenGloucester: 0
+xprime_CapeCumberland: 0
+xprime_CumberlandGloucester: 0
+xprime_CumberlandSalem: 0
+xprime_EssexHudson: 0
+xprime_EssexMorris: 0
+xprime_EssexPassaic: 0
+xprime_EssexUnion: 0
+xprime_GloucesterSalem: 0
+xprime_HudsonUnion: 1
+xprime_HunterdonMercer: 1
+xprime_HunterdonMorris: 0
+xprime_HunterdonSomerset: 0
+xprime_HunterdonWarren: 0
+xprime_MercerMiddlesex: 0
+xprime_MercerMonmouth: 1
+xprime_MercerSomerset: 1
+xprime_MiddlesexMonmouth: 1
+xprime_MiddlesexSomerset: 1
+xprime_MiddlesexUnion: 1
+xprime_MonmouthOcean: 0
+xprime_MorrisPassaic: 0
+xprime_MorrisSomerset: 0
+xprime_MorrisSussex: 0
+xprime_MorrisUnion: 0
+xprime_MorrisWarren: 0
+xprime_PassaicSussex: 0
+xprime_SomersetUnion: 0
+xprime_SussexWarren: 0
+
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --cpxlp C:\Users\CGLam\AppData\Local\Temp\85505cd7260a42d39969baf58d2ff6ed-pulp.lp
+ -o C:\Users\CGLam\AppData\Local\Temp\85505cd7260a42d39969baf58d2ff6ed-pulp.sol
+ --mipgap 0.05 --gomory
+Reading problem data from 'C:\Users\CGLam\AppData\Local\Temp\85505cd7260a42d39969baf58d2ff6ed-pulp.lp'...
+225 rows, 84 columns, 794 non-zeros
+84 integer variables, all of which are binary
+447 lines were read
+GLPK Integer Optimizer 5.0
+225 rows, 84 columns, 794 non-zeros
+84 integer variables, all of which are binary
+Preprocessing...
+32 hidden covering inequaliti(es) were detected
+225 rows, 84 columns, 794 non-zeros
+84 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  9.557e+05  ratio =  9.557e+05
+GM: min|aij| =  5.749e-01  max|aij| =  1.740e+00  ratio =  3.026e+00
+EQ: min|aij| =  3.322e-01  max|aij| =  1.000e+00  ratio =  3.010e+00
+2N: min|aij| =  2.091e-01  max|aij| =  1.000e+00  ratio =  4.782e+00
+Constructing initial basis...
+Size of triangular part is 225
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+225 rows, 84 columns, 794 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.603e+01 (2)
+     23: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+*    24: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
+Gomory's cuts enabled
++    24: mip =     not found yet >=              -inf        (1; 0)
+Cuts on level 0: gmi = 12;
+Solution found by heuristic: 16
+Solution found by heuristic: 15
+Solution found by heuristic: 7
++  4061: mip =   7.000000000e+00 >=     tree is empty   0.0% (0; 145)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   0.2 secs
+Memory used: 1.4 Mb (1429842 bytes)
+Writing MIP solution to 'C:\Users\CGLam\AppData\Local\Temp\85505cd7260a42d39969baf58d2ff6ed-pulp.sol'...

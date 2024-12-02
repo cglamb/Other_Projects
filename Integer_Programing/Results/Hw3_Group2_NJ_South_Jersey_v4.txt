@@ -1,0 +1,110 @@
+Python 3.10.9 | packaged by Anaconda, Inc. | (main, Mar  1 2023, 18:18:15) [MSC v.1916 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 8.10.0 -- An enhanced Interactive Python.
+
+runfile('C:/Users/CGLam/OneDrive - Northwestern University/MSDS 460/Redistricting/Code/Hw3_Group2_NJ_South_Jersey_v4.py', wdir='C:/Users/CGLam/OneDrive - Northwestern University/MSDS 460/Redistricting/Code')
+11
+xij_('Atlantic',_0): 1
+xij_('Atlantic',_1): 0
+xij_('Atlantic',_2): 0
+xij_('Atlantic',_3): 0
+xij_('Burlington',_0): 0
+xij_('Burlington',_1): 0
+xij_('Burlington',_2): 1
+xij_('Burlington',_3): 0
+xij_('Camden',_0): 0
+xij_('Camden',_1): 0
+xij_('Camden',_2): 1
+xij_('Camden',_3): 0
+xij_('Cape',_0): 1
+xij_('Cape',_1): 0
+xij_('Cape',_2): 0
+xij_('Cape',_3): 0
+xij_('Cumberland',_0): 1
+xij_('Cumberland',_1): 0
+xij_('Cumberland',_2): 0
+xij_('Cumberland',_3): 0
+xij_('Gloucester',_0): 1
+xij_('Gloucester',_1): 0
+xij_('Gloucester',_2): 0
+xij_('Gloucester',_3): 0
+xij_('Mercer',_0): 0
+xij_('Mercer',_1): 0
+xij_('Mercer',_2): 0
+xij_('Mercer',_3): 1
+xij_('Middlesex',_0): 0
+xij_('Middlesex',_1): 0
+xij_('Middlesex',_2): 0
+xij_('Middlesex',_3): 1
+xij_('Monmouth',_0): 0
+xij_('Monmouth',_1): 1
+xij_('Monmouth',_2): 0
+xij_('Monmouth',_3): 0
+xij_('Ocean',_0): 0
+xij_('Ocean',_1): 1
+xij_('Ocean',_2): 0
+xij_('Ocean',_3): 0
+xij_('Salem',_0): 1
+xij_('Salem',_1): 0
+xij_('Salem',_2): 0
+xij_('Salem',_3): 0
+xprime_AtlanticBurlington: 1
+xprime_AtlanticCamden: 1
+xprime_AtlanticCape: 0
+xprime_AtlanticCumberland: 0
+xprime_AtlanticGloucester: 1
+xprime_AtlanticOcean: 1
+xprime_BurlingtonCamden: 0
+xprime_BurlingtonMercer: 1
+xprime_BurlingtonMonmouth: 1
+xprime_BurlingtonOcean: 1
+xprime_CamdenGloucester: 1
+xprime_CapeCumberland: 0
+xprime_CumberlandGloucester: 0
+xprime_CumberlandSalem: 0
+xprime_GloucesterSalem: 0
+xprime_MercerMiddlesex: 0
+xprime_MercerMonmouth: 1
+xprime_MiddlesexMonmouth: 1
+xprime_MonmouthOcean: 1
+
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --cpxlp C:\Users\CGLam\AppData\Local\Temp\314df92124cc4a0cb3e3b0754fee5295-pulp.lp
+ -o C:\Users\CGLam\AppData\Local\Temp\314df92124cc4a0cb3e3b0754fee5295-pulp.sol
+Reading problem data from 'C:\Users\CGLam\AppData\Local\Temp\314df92124cc4a0cb3e3b0754fee5295-pulp.lp'...
+211 rows, 63 columns, 772 non-zeros
+63 integer variables, all of which are binary
+445 lines were read
+GLPK Integer Optimizer 5.0
+211 rows, 63 columns, 772 non-zeros
+63 integer variables, all of which are binary
+Preprocessing...
+40 hidden covering inequaliti(es) were detected
+211 rows, 63 columns, 772 non-zeros
+63 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  8.632e+05  ratio =  8.632e+05
+GM: min|aij| =  5.932e-01  max|aij| =  1.686e+00  ratio =  2.842e+00
+EQ: min|aij| =  3.519e-01  max|aij| =  1.000e+00  ratio =  2.842e+00
+2N: min|aij| =  1.817e-01  max|aij| =  1.000e+00  ratio =  5.503e+00
+Constructing initial basis...
+Size of triangular part is 211
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+211 rows, 63 columns, 772 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.082e+01 (4)
+     48: obj =   1.364781718e+00 inf =   4.163e-16 (0)
+*    57: obj =  -4.903485025e-16 inf =   3.992e-15 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++    57: mip =     not found yet >=              -inf        (1; 0)
++  1547: >>>>>   1.500000000e+01 >=   5.000000000e+00  66.7% (83; 15)
++  1787: >>>>>   1.100000000e+01 >=   5.000000000e+00  54.5% (93; 25)
++ 12046: mip =   1.100000000e+01 >=     tree is empty   0.0% (0; 1189)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   0.3 secs
+Memory used: 0.8 Mb (840667 bytes)
+Writing MIP solution to 'C:\Users\CGLam\AppData\Local\Temp\314df92124cc4a0cb3e3b0754fee5295-pulp.sol'...
